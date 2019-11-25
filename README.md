@@ -10,10 +10,15 @@ You are adviced to follow the tutprial in the following order 1.Basic
 Here we have three files:
 
 1. hellomake.c
+
     This is the main c file that we are going to run, this has a call to the function that is defined in hellofunc.c.
+    
 2.hellofunc.c
+
   This contains the definition of the function that we are going to use in our hellomake.c
+  
 3.hellomake.h
+
   This contains the declaration of the function that is defined in hellofunc.c
   
 
