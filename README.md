@@ -28,7 +28,19 @@ You need to clone this repository and by using the command line you can compile 
           gcc -o output.exe hellomake.c hellofunc.c
           
           to use this you  should change #include<hellomake.h> to #include "hellomake.h"
-          so that the compiler knows that the header file can be found within the same directory as           the c file.
-          
+          so that the compiler knows that the header file can be found within the same directory           as the c file.
+  
+      # Method 2
 
+        Sometimes you may get an error like
+        fatal error: hellomake.h: No such file or directory #include <hellomake.h> ^~~~~~~~~~~~~
+        compilation terminated.
+        The reason for this is the compiler is not told where exactly to fing the header file,           so you need to add -I. at the end of the compile code
+        
+        gcc -o ouput.exe hellomake.c hellofunc.c -I.
+        
+        
+          
+    # Method 3
+      Using a Makefile
 
