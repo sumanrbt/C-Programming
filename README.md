@@ -3,8 +3,8 @@ C Programming Tutorial
 
 You are adviced to follow the tutprial in the following order 1.Basic
 
-# 1. Basic
-  # this tuorial is based on http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+### 1. Basic
+  ### This tuorial is based on http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
   #you need a gcc compiler installed before you can clone and run this program
   
 Here we have three files:
