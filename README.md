@@ -43,4 +43,17 @@ You need to clone this repository and by using the command line you can compile 
           
     # Method 3
       Using a Makefile
+      Remember in the Makefile, before the gcc command, you need a tab (not equivalent spaces,         else the make command will not be happy)
+    # Method 4 a better make file
+      We need to make the Makefile better by using standard ways which will make the compilation process of large fies easier.
+      This is given as Makefiles2, while compiling the code you need to rename this as Makefile and run make, 
+      Note that:
+      CC- the compiler that is used (gcc)
+      CFLAGS - the list of flags to pass to the compilation command
+      In the dependency list we have put the obgject files instead of the c files, so the       compiler knows that it has to convert all the .c files to .o files at the begining before making the executable output
+      
+      
+      
+      
+      
 
